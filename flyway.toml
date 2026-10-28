@@ -1,0 +1,9 @@
+ 
+[flyway]
+locations = ["filesystem:migrations"]
+validateMigrationNaming = true
+
+[environments.default]
+url = "jdbc:postgresql://localhost:5432/capstone"
+user = "postgres"
+

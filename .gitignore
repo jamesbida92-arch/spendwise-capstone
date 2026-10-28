@@ -1,0 +1,16 @@
+# PostgreSQL backup files
+backups/*.dump
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
